@@ -1,6 +1,8 @@
 # Geoguesser
 Little college project
 
+<img src="https://skillicons.dev/icons?i=js,vite,react&theme=dark">
+
 ## Install
 Clone repository
 ```
