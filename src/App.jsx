@@ -30,7 +30,7 @@ const App = () => {
     <div className="app">
       <div className="top-bar">
         <div className="city">{gameStarted ? city?.name : "Город появится здесь"}</div>
-        <Timer gameStarted={gameStarted} />
+        <Timer gameStarted={gameStarted} onTimeUp={stopGame}/>
       </div>
 
       <Map gameStarted={gameStarted} cityCoords={city?.coords} />
