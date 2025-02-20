@@ -1,6 +1,10 @@
 import React from "react";
-import './styles.scss'
+import "./styles.scss";
 
-export default function Button() {
-    return <div className="button"></div>
-}
+const Button = ({ onClick, text, disabled }) => (
+  <button className="custom-button" onClick={onClick} disabled={disabled}>
+    {text}
+  </button>
+);
+
+export default Button;

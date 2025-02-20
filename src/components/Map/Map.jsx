@@ -64,7 +64,7 @@ export default function YandexMap() {
   return (
     <div className="map">
       <YMaps query={{ apikey: "b9c7647c-ab3b-4b02-aa3a-0198822dcc91", lang: "ru_RU", load: "package.full" }}>
-        <div id="panorama" style={{ width: "100%", height: "400px" }}></div>
+        <div id="panorama" style={{ width: "100%"}}></div>
         <Map
           defaultState={{ center: [55.751244, 37.618423], zoom: 3 }}
           width="400px"
